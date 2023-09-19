@@ -2,7 +2,6 @@ import { BrowserRouter, useRoutes } from 'react-router-dom'
 import Login from '../Login'
 import Signup from '../Signup'
 import Notfound from '../Notfound'
-import Navbar from '../../Components/Navbar'
 import './App.css'
 
 function Routes() {
@@ -26,7 +25,6 @@ function Routes() {
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
       <Routes />
     </BrowserRouter>
   )
